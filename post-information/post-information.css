@@ -1,0 +1,55 @@
+/*
+	Title: CSS for Post Information Plugin
+	By: Chris Poteet
+	URL: www.siolon.com
+*/
+
+.open-post-info {
+	cursor: pointer;
+	font: 11px "Lucida Grande", Tahoma, "Trebuchet MS", sans-serif;
+	margin-bottom: 5px;
+	padding-left: 12px;
+	height: 15px;
+	background: url('images/arrows.png') no-repeat 0 0;
+}
+.toggled {
+	background: transparent url('images/arrows.png') no-repeat 0 -14px;
+}
+.post-info {
+ 	padding: 6px 4px 4px;
+  	border: 1px solid #ccc;
+  	background: #eee url('images/postmetabg.png') no-repeat right center;
+  	font: 11px "Lucida Grande", Tahoma, "Trebuchet MS", sans-serif;
+  	text-align: left;
+}
+.post-info ul {
+	margin-left: 5px;
+	padding-left: 0;
+	margin-right: 130px;
+	width: 425px;
+}
+.post-info li {
+	list-style: none;
+	min-height: 16px;
+	margin-bottom: 5px;
+	padding-left: 22px;
+	vertical-align: middle;
+}
+li.date {
+	background: url('images/date.png') no-repeat;
+}
+li.categories {
+	background: url('images/categories.png') no-repeat;
+}
+li.tags {
+	background: url('images/tags.png') no-repeat;	
+}
+li.comments {
+	background: url('images/comments.png') no-repeat;
+}
+li.author {
+	background: url('images/author.png') no-repeat;
+}
+li.words {
+	background: url('images/words.png') no-repeat;
+}
